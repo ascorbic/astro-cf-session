@@ -13,16 +13,16 @@
     "preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/33bbbf02-eda2-4d3f-b244-c27a280f3900/public"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "12.1.0",
-    "@astrojs/mdx": "4.0.3",
+    "@astrojs/cloudflare": "https://pkg.pr.new/@astrojs/cloudflare@13514",
+    "@astrojs/mdx": "4.2.2",
     "@astrojs/rss": "4.0.11",
-    "@astrojs/sitemap": "3.2.1",
-    "astro": "5.1.3",
+    "@astrojs/sitemap": "3.3.0",
+    "astro": "5.5.5",
     "typescript": "5.7.2"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250204.0",
-    "wrangler": "3.107.3"
+    "@cloudflare/workers-types": "^4.20250327.0",
+    "wrangler": "4.5.1"
   },
   "scripts": {
     "astro": "astro",
@@ -33,5 +33,6 @@
     "preview": "astro build && wrangler dev",
     "types": "wrangler types"
   },
-  "type": "module"
+  "type": "module",
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }

@@ -1,7 +1,9 @@
 {
   "name": "astro-cf-session",
   "compatibility_date": "2024-11-01",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "main": "./dist/_worker.js/index.js",
   "assets": {
     "directory": "./dist",
@@ -10,5 +12,11 @@
   "observability": {
     "enabled": true
   },
+  "kv_namespaces": [
+    {
+      "binding": "SESSION",
+      "id": "136cc1e85fb042fab9b3160e7c7e31d8"
+    }
+  ],
   "upload_source_maps": true
 }
